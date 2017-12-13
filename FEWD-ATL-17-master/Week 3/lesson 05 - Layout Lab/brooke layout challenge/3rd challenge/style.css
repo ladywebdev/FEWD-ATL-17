@@ -1,0 +1,36 @@
+header {
+	background-color: skyblue;
+	text-align: center;
+	height: 100px;
+	width: 250px;
+	padding-top: 10px;
+}
+
+.nav {
+	
+}
+
+
+main {
+	background-color: lightblue;
+	height: 500px; 
+	width: 30%;
+	text-align: center;
+}
+
+div {
+	background-color: darkblue;
+	color: white;
+	height: 500px;
+	width: 10%;
+	text-align: center;
+}
+
+footer {
+	background-color: lightgray;
+	text-align: center;
+	clear: both;
+	padding-top: 30px;
+	padding-bottom: 30px;
+} 
+

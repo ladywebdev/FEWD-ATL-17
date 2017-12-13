@@ -1,0 +1,47 @@
+.left {
+    width: 20%;
+    float: left;
+}
+
+
+.container {
+	justify-content: space-between;
+}
+
+header {
+	background-color: skyblue;
+	text-align: center;
+	height: 100px;
+	padding-top: 10px;
+}
+
+main {
+	background-color: lightblue;
+	height: 500px;
+	width: 30%;
+	text-align: center;
+}
+
+div {
+	background-color: darkblue;
+	color: white;
+	height: 500px;
+	width: 10%;
+	text-align: center;
+}
+
+aside {
+	background-color: blue;
+	color: white;
+	height: 500px;
+	width: 10%;
+}
+
+footer {
+	background-color: lightgray;
+	text-align: center;
+	clear: both;
+	padding-top: 30px;
+	padding-bottom: 30px;
+} 
+

@@ -1,10 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
-*/
-
+Project Name: Relaxr Landing Page
+Client: General ASsembly - Front End Web Development #FEWD17
+Author: Brooke Guy
+Developer @GA in ATL
 
 /******************************************
 /* SETUP
@@ -51,7 +49,7 @@ body {
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     background-size: cover;
 }
 
 
