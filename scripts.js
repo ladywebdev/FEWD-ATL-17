@@ -32,13 +32,23 @@ $(document).ready(function() {
 		console.log(city);
 	})
 
-	
 
 	function 
 
 	if city === "New York" or city === "New York City" or city = "NYC"
-		then change BG pic
+		$("background-image").css("../nyc.jpg");
 
+	if city === "San Fransisco" or city === "SF" or city = "Bay Area"
+		$("background-image").css("../sf.jpg");
+
+	if city === "Los Angeles" or city === "LA" or city = "LAX"
+		$("background-image").css("../la.jpg");
+
+	if city === "Austin" or city === "ATX" 
+		$("background-image").css("../austin.jpg");
+
+	if city === "Sydney" or city === "SYD" 
+		$("background-image").css("../sydney.jpg");
 
 
 
@@ -56,9 +66,9 @@ $(document).ready(function() {
 	// $("p").css("background-color");
 
 	// | Use $.on(submit) or ```$.click``` to figure out when the user clicks the "submit" button   
-	$("#submit-btn").click(function() { 
-		$("cityNewYork").css('background' , 'url(../images/nyc.jpg)');
-	});
+	// $("#submit-btn").click(function() { 
+	// 	$("cityNewYork").css('background' , 'url(../images/nyc.jpg)');
+	// });
 
 	// $( "#submit-btn" ).click(function() { 
 	// 	$("citySanFran").css('background': 'url(../images/sf.jpg)');
@@ -81,11 +91,11 @@ $(document).ready(function() {
 
 
 // | Store user input in ```var city```  
-	var cityNewYork = ["New York", "New York City", "NYC"];
-	var citySanFran = ["San Francisco", "SF", "Bay Area"]
-	var cityLosAng = ["Los Angeles", "LA", "LAX"]
-	var cityAustin = ["Austin", "ATX"]
-	var citySydney = ["Sydney", "SYD"]
+	// var cityNewYork = ["New York", "New York City", "NYC"];
+	// var citySanFran = ["San Francisco", "SF", "Bay Area"]
+	// var cityLosAng = ["Los Angeles", "LA", "LAX"]
+	// var cityAustin = ["Austin", "ATX"]
+	// var citySydney = ["Sydney", "SYD"]
 
 // $("p").click(function(){
 //   // action goes here!!
