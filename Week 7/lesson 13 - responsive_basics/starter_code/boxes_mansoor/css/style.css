@@ -1,0 +1,91 @@
+* {
+	box-sizing: border-box;
+}
+
+header, div {
+	border: 3px solid #aaa;
+}
+
+div.container {
+	width: 1200px;
+	max-width: 100%;
+	margin: 10px auto;
+	border: none;
+}
+
+header {
+	margin-bottom: 20px;
+}
+
+header, div.four-container, div.three-container {
+	padding: 5px;
+	overflow: auto;
+}
+
+header div {
+	width: 15%;
+	height: 70px;
+	float: left;
+}
+
+header div.hidden {
+	float: right;
+	display: none;
+}
+
+div.hero {
+	height: 270px;
+	width: 100%;
+}
+
+div.four-container {
+	border: none;
+	padding: 10px;
+}
+
+div.four-container div {
+	width: 25%;
+	float: left;
+	height: 120px;
+}
+
+div.three-container div {
+	width: 33%;
+	float: left;
+	height: 120px;
+}
+
+/*Mobile First Method*/
+
+/* Extra Small Devices, Phones*/
+@media only screen and (min-width: 480px) {
+.div {
+	float: none; 
+	width: 100%;
+	}
+}
+
+/*Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+.div {
+	float: none;
+	width: 100%;
+	}
+}
+
+/*Medium Devices, Desktops*/
+/*@media only screen and (min-width: 992px) {
+.div {
+	float: none;
+	width: 100%;
+	}
+}
+
+Large Devices, Wide Screens
+@media only screen and (min-width: 1200px) {
+.div {
+	float: none;
+	width: 100%;
+	}
+}
+*/
